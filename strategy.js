@@ -20,7 +20,7 @@ function Usps(){
         return 4.5;
     }
 }
-
+// Strategy pattern
 function Shipping(){
     this.company = "";
     this.setStrategy = (company) =>{
